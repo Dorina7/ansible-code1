@@ -1,0 +1,8 @@
+---
+  - hosts: all
+    gather_facts:  false
+    tasks:
+       - name: check the date
+         command: date
+       - name: check the uptime   
+         command: uptime  
